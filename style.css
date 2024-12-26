@@ -1,0 +1,42 @@
+body{
+  font-family: sans-serif
+}
+img{
+  margin: 20px;
+  /* margin-left: 3px; */
+  margin-bottom: 0px;
+  width: 7em;
+}
+.info{
+  font-weight: bold;
+  display: inline-block;
+  background-color: gray;
+  float: left;
+  padding: 0px;
+}
+.info span{
+  margin-left: 50px;
+}
+
+.text{
+  padding: 10px;
+  padding-left: 20px;
+  margin-left: 10px;
+}
+.navbar button{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%);
+  border: none;
+}
+.navbar .active{
+  background-color: hsl(0, 0%, 75%);
+}
+.navbar button:hover{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 90%);
+  border: none;
+}
